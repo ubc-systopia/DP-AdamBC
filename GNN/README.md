@@ -94,7 +94,7 @@ fixed-size arrays to represent subgraphs.
 
 ### Citation
 
-Please cite our paper if you use this code!
+Please cite the original authors if you use this code :)
 
 ```text
 @inproceedings{
