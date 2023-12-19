@@ -74,7 +74,7 @@ automatically. You can run a tuning process using `autotune.py` over 50 runs
 (hyperparameter combinations):
 
 ```shell
-python autotune.py --in_path adambc_paper/eps3_adam.json --n 50 \
+python autotune.py --in_path tune_adambc_example.json --n 50 \
 --workdir=./tmp --config=configs/dpgcn.py
 ```
 
