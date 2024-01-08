@@ -1,1 +1,0 @@
-{"epoch": 4, "step": 3, "train_loss": 19.557114124298096, "clean_grad_norm": 160.94677734375, "private_grad_norm": 0.7570181488990784, "clipped_grad_norm": 1.3964946269989014, "cur_gamma": -1, "noise_mul": 0.68, "_timestamp": 1703554603.0338078, "_runtime": 13.419251680374146, "_step": 15, "_wandb": {"runtime": 12}}
