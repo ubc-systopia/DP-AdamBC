@@ -1,0 +1,146 @@
+{
+    "os": "Linux-6.2.0-36-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-12-26T01:39:43.841295",
+    "startedAt": "2023-12-26T01:39:43.210056",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--opt_model",
+        "adam_corr",
+        "--seed",
+        "1024",
+        "--batch_size",
+        "256",
+        "--train_from_scratch",
+        "--lr",
+        "0.003",
+        "--num_epochs",
+        "10",
+        "--eps_root",
+        "0.000000007",
+        "--data_name",
+        "qnli",
+        "--model_name",
+        "bert_base",
+        "--target_epsilon",
+        "3.0",
+        "--debug"
+    ],
+    "state": "running",
+    "program": "/home/qiaoyuet/project/dp_adam_bc_public/DP-AdamBC/pytorch_implementation/text_classification_glue.py",
+    "codePath": "pytorch_implementation/text_classification_glue.py",
+    "git": {
+        "remote": "git@github.com:ubc-systopia/DP-AdamBC.git",
+        "commit": "d708922bac72bd7a48065317712a40f0bacbef5c"
+    },
+    "email": "cathy.tangqiaoyue@gmail.com",
+    "root": "/home/qiaoyuet/project/dp_adam_bc_public/DP-AdamBC",
+    "host": "aurora1",
+    "username": "qiaoyuet",
+    "executable": "/home/qiaoyuet/project/venvs/venv_nlp/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1783.3015,
+        "min": 800.0,
+        "max": 5050.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 1000.012,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 876.722,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 967.473,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 1298.652,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 989.847,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 991.516,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 1011.73,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 1396.872,
+            "min": 800.0,
+            "max": 5000.0
+        }
+    ],
+    "disk": {
+        "total": 937.3305015563965,
+        "used": 342.4675483703613
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25438322688
+        }
+    ],
+    "memory": {
+        "total": 62.47263717651367
+    }
+}
